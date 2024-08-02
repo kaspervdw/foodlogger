@@ -1,13 +1,22 @@
-Required features:
+Requirements
 
-As a user, I want to log consumed meals in a day. A meal can consist of one or more types of food.
-As a user, I want to edit or delete consumed meals and their foods.
-As a user, I want to see an overview of consumed meals per day.
-As a user, I want to select a meal and get a detailed overview of calories, macro- and micronutrients.
-As a user, I want to see an overview of all consumed calories, macro- and micronutrients per day.
-As a user, I want to add new types of food.
+Logging meals and food
 
-As a user, I want to log in to see my personal collection of meals etc.
+Users must be able to log their consumed meals per day, with the meals consisting of one or more food items.
+Users must be able to edit or delete meals and their respectable food items.
+Users must be able to see an overview of consumed meals and food items based on a selected day.
+Users must be able to get a detailed overview of their daily intake, showing calories and macro- and micronutrients.
+Users must be able to get a detailed overview of a selected meal, showing calories and macro- and micronutrients.
+Users must be able to get a detailed overview of a selected food item, showing calories and macro- and micronutrients.
+Users must be able to add custom food items to the database of food items.
 
-The app must integrate with an external application which offers a collection of foods.
+Authentication
+
+Users must be able to authenticate themselves.
+All logged meals etc. must be tied to a specific user.
+
+External requirements
+
+The application must integrate with an external application which offers a collection of foods items.
+Users must be able to search these food items and add them to their food logs.
 
